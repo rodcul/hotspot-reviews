@@ -6,13 +6,21 @@
         <div class="row">
           <div class="six columns" style="padding-bottom:20px;">
             <p>You know what's even <strong>cooler?</strong> </br>Leaving reviews:</p>
-            <div id="TA_cdswritereviewlg800" class="TA_cdswritereviewlg">
-                <ul id="4xgF7IwYM" class="TA_links qmqGNsr">
-                    <li id="7Feu42p" class="meCI0wOSrwx">
-                        <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/medium-logo-12097-2.png" alt="TripAdvisor" /></a>
-                    </li>
-                </ul>
-            </div>
+            <?php if (preg_match('/iPhone|iPad|iPod/i', $_SERVER['HTTP_USER_AGENT'])) {
+                echo '<a href="http://tripadvisor.com/Restaurant_Review-g293917-d7061335-Reviews-Overstand-Chiang_Mai.html">Link</a>';
+            } else {
+              echo '
+              <div id="TA_cdswritereviewlg800" class="TA_cdswritereviewlg">
+              <ul id="4xgF7IwYM" class="TA_links qmqGNsr">
+              <li id="7Feu42p" class="meCI0wOSrwx">
+              <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/medium-logo-12097-2.png" alt="TripAdvisor" /></a>
+              </li>
+              </ul>
+              </div>';
+            }?>
+
+
+
           </div>
 
           <div class="one-half column">
