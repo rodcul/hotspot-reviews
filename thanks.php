@@ -4,7 +4,15 @@
     <div class="container">
         <!-- The above form looks like this -->
         <div class="row" style="padding-top:20px;">
-            <img src="img/thanks.gif" class=".u-full-width">
+          <div class="one-half column">
+            <h1>Thanks!</h1>
+            <h3>We really appreciate you taking the time to let us know what we need to improve on</h3>
+            <p>Please make sure to let your server know if there were any problems.</p>
+          </div>
+          <div class="one-half column">
+            <img src="img/thanks.gif" class="u-full-width">
+            <p>* and women</p>
+          </div>
         </div>
 
         <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
