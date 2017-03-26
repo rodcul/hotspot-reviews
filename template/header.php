@@ -26,12 +26,12 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fontawesome-stars.css">
-
     <link rel="stylesheet" href="css/custom.css">
+
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
 </head>
 

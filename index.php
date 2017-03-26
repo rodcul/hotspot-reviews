@@ -5,9 +5,10 @@
         <!-- The above form looks like this -->
         <form method="post" name="feedbackform" action="form.php">
             <div class="row" style="padding-top:20px;">
-                <h3>How are we doing today?</h3>
+                <h3 style="color:green;">Sweet, you're connected!</h3>
+                <h4>Quick question: how's your experience at Overstand so far today?</h4>
 
-                <label for="rating">Service/Food/Coffee/etc.:</label>
+                <label for="rating">Service/Food/Coffee/Vibe/etc.</label>
                 <select id="rating" name="rating">
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -16,7 +17,7 @@
                       <option value="5">5</option>
                     </select>
 
-                <input class="button-primary" type="submit" value="Submit">
+                <input class="button button-primary" type="submit" value="Submit">
             </div>
         </form>
 

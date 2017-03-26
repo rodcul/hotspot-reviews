@@ -5,7 +5,7 @@
       <h3>We did it, COOL!</h3>
         <div class="row">
           <div class="six columns" style="padding-bottom:20px;">
-            <p>You know what's even <strong>cooler?</strong> </br>Leaving a review:</p>
+            <p>You know what's even <strong>cooler?</strong> </br>Leaving reviews:</p>
             <div id="TA_cdswritereviewlg800" class="TA_cdswritereviewlg">
                 <ul id="4xgF7IwYM" class="TA_links qmqGNsr">
                     <li id="7Feu42p" class="meCI0wOSrwx">
