@@ -36,3 +36,4 @@
 </head>
 
 <body>
+<?php include_once("template/analytics.php") ?>
