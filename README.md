@@ -8,7 +8,8 @@ Add config.php
 
 # Tasks
 
-- [ ] Add different TripAdvisor widget if iOS device
+- [x] Add different TripAdvisor widget if iOS device
+- [ ] Inform users they'll be getting an email
 - [ ] Graph results over time
 - [ ] Better integration with hotspot landing page
 - [ ] Copy over email address to feedback form
