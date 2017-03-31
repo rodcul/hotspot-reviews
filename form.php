@@ -11,9 +11,9 @@ $feedback = isset($_POST['feedback']) ? $_POST['feedback'] : '';
 
 $email_subject = "WIFI: $rating $feedback";
 $email_body = "Put something here";
+$email_from = isset($_COOKIE['wifi']['email']) ? $_COOKIE['wifi']['email'] : 'rodney@overstand.co.th';
 
-
-// $headers = "From: $email_from \r\n";
+$headers = "From: $email_from \r\n";
 // $headers .= "Reply-To: $visitor_email \r\n";
 mail($email_to, $email_subject, $email_body);
 

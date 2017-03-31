@@ -1,5 +1,5 @@
+<?php include("template/setcookie.php"); ?>
 <?php include("template/header.php"); ?>
-
     <!-- .container is main centered wrapper -->
     <div class="container">
         <!-- The above form looks like this -->

@@ -11,7 +11,7 @@
           </div>
           <div class="one-half column">
             <img src="img/thanks.gif" class="u-full-width">
-            <p>* and women</p>
+            <p>* or woman</p>
           </div>
         </div>
 
