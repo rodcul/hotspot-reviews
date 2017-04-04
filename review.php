@@ -8,7 +8,7 @@
             <p>You know what's even <strong>cooler?</strong> Leaving reviews.</p>
             <p>We're a small family business and our reviews are our lifeline. If you are enjoying your visit today I would be eternally grateful if you help spread the word. It should take less than 60 seconds and in exchange you will receive my eternal gratitude #staycool</p>
             <?php if (preg_match('/iPhone|iPad|iPod/i', $_SERVER['HTTP_USER_AGENT'])) {
-              echo '</br><a class="button button-primary" href="https://www.tripadvisor.com/UserReviewEdit-g293917-d7061335-e__2F__Restaurant__5F__Review__2D__g293917__2D__d7061335__2D__Reviews__2D__Overstand__2D__Chiang__5F__Mai__2E__html-Overstand-Chiang_Mai.html">Review on TripAdvisor</a>';
+              echo '</br><a class="button button-primary" href="click.php?url=tripadvisor">Review on TripAdvisor</a>';
 
 } else {
     echo '
@@ -35,9 +35,9 @@
 
           <div class="one-half column">
             <p>Don't have an account on TripAdvisor? No probs fam, we got you covered:</p>
-              <a class="button button-primary" href="https://search.google.com/local/writereview?placeid=ChIJjz1yj6E62jARRzni4mW0N_M">Review on Google</a>
+              <a class="button button-primary" href="click.php?url=google">Review on Google</a>
               <!-- <a class="button button-primary" href="https://www.tripadvisor.com/UserReviewEdit-g293917-d7061335-a_referredFromLocationSearch.true-a_ReviewName.-a_type.-e-wpage1-Overstand-Chiang_Mai.html">TripAdvisor</a> -->
-              <a class="button button-primary" href="https://www.facebook.com/pg/OverstandCoffee/reviews/">Review on Facebook</a>
+              <a class="button button-primary" href="click.php?url=facebook">Review on Facebook</a>
           </div>
         </div>
     </div>
