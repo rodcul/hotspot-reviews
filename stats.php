@@ -50,7 +50,7 @@
 
 
    echo "<table>";
-   echo "<thead><tr><th>DATE</th><th>RATING</th><th>COUNT</th></tr></thead>";
+   echo "<thead><tr><th>DATE</th><th>SITE</th><th>COUNT</th></tr></thead>";
 
    while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
 
