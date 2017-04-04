@@ -8,7 +8,7 @@
    }
 
 
-   mysql_select_db('hotspot');
+   mysql_select_db($db);
    $retval = mysql_query( $sql, $conn );
 
    if(! $retval ) {
