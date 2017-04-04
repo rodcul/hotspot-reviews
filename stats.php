@@ -11,7 +11,7 @@
       die('Could not connect: ' . mysql_error());
    }
 
-   $sql = 'SELECT DATE(create_time)as date,ROUND(AVG(rating),1) as rating, count(id) as count FROM hotspot.ratings GROUP BY DATE(create_time) ORDER BY date desc';
+   $sql = 'SELECT DATE(create_time)as date,ROUND(AVG(rating),1) as rating, count(id) as count FROM ratings GROUP BY DATE(create_time) ORDER BY date desc';
    mysql_select_db($db);
    $retval = mysql_query( $sql, $conn );
 

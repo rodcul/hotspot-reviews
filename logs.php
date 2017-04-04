@@ -11,7 +11,7 @@
       die('Could not connect: ' . mysql_error());
    }
 
-   $sql = 'SELECT * FROM hotspot.ratings order by id desc';
+   $sql = 'SELECT * FROM ratings order by id desc';
    mysql_select_db($db);
    $retval = mysql_query( $sql, $conn );
 
