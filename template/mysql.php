@@ -1,5 +1,5 @@
 <?php
-   include('../config.php');
+   include('config.php');
 
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 
